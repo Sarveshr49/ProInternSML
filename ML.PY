@@ -19,6 +19,7 @@ test_x=test.drop("Scores",axis=1)
 test_y=test["Scores"]
 
 lr=LinearRegression()
+print("I am learning real linear regression")
 lr.fit(train_x,train_y)
 #print(lr.coef_)
 #print(lr.intercept_)
