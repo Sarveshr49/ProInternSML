@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
+print("Hello")
 path="stuS.csv"
 s_data= pd.read_csv(path)
 print(s_data.columns)
